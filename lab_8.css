@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #002c5f;
+  color: white;
+}
+
+#maindiv {
+    padding-left:16px;
+    padding-bottom: 100px;
+}
+
+#headerimage {
+    width: 100%;
+}
+
+#studentpicture {
+    float: left;
+    width: 35%;
+    padding-right: 20px;
+}
+
+#floatingh {
+    position: relative;
+    color: #002c5f;
+}
+
+footer {
+    display: flex;
+    height: 25px;
+    background-color: #333;
+}
+
+footer p {
+    color: white;
+    font-size: 10px;
+    display: block;
+    margin: auto;
+}
+
+#calcdiv {
+    padding-left: 16px;
+    padding-bottom: 470px;
+}
+
+.tuitionchart {
+    margin: auto;
+    width: 75%;
+    background-color: white;
+    border: 1px solid black;
+
+}
+
+.tuitionchart th {
+    
+    height: 25px;
+    background-color: #002c5f;
+    color: white;
+    border: 1px solid black;
+    text-align: left;
+}
+
+.tuitionchart tr {
+    
+    border: 1px solid black;
+}
+
+#chartdiv {
+    padding-left: 16px;
+    padding-bottom: 100px;
+}
